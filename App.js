@@ -1,10 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { render } from 'react-dom';
 import { StyleSheet,TouchableOpacity, Text,SafeAreaView, View, Image, ScrollView,FlatList  } from 'react-native';
-
-import CustomListview from './costumList';
-
 const data = require('./data.json');
   let a=[]
   let sum1=0,sum2=0,total=0;
